@@ -24,6 +24,7 @@ form{
     padding: 20px 15px;
     box-shadow: 0 0 15px #fff;
     border-radius: 10px;
+    max-width: 300px;
 }
 form input,textarea{
     border: none;
@@ -44,4 +45,16 @@ form button{
     border-radius: 4px;
     box-shadow: 0 0 10px #4aaeff;
     letter-spacing: 1px;
+}
+
+form .password-field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 4px;
+}
+form i{
+    cursor: pointer;
+    width: 25px;
 }
