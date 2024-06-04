@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 20px 15px;
+    box-shadow: 0 0 15px #fff;
+    border-radius: 10px;
+}
+form input,textarea{
+    border: none;
+    outline: none;
+    padding: 5px 8px;
+    border-radius: 4px;
+}
+form textarea{
+    resize: none;
+}
+form button{
+    background: linear-gradient(80deg, rgb(0, 162, 255), rgb(131, 77, 255));
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    padding: 5px 8px;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 0 10px #4aaeff;
+    letter-spacing: 1px;
+}
