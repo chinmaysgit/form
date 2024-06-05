@@ -95,7 +95,7 @@ function Form() {
         </button>
         <button
           onClick={() => {
-            setName("");
+            setName(""); 
             setEmail("");
             setPassword("");
             setDesc("");
